@@ -22,5 +22,4 @@ A simple web application to help you find a common meeting time across multiple 
 ## Setup
 No installation required. Just clone the repository and open `index.html` in your browser.
 
-## License
-MIT License
+
