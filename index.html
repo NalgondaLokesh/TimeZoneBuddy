@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Time Zone Meeting Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Time Zone Meeting Planner</h2>
+    <form id="timezoneForm">
+      <input type="text" placeholder="Enter city (e.g., New York)" required />
+      <input type="text" placeholder="Enter another city (e.g., London)" required />
+      <div id="moreFields"></div>
+      <button type="button" onclick="addField()">+ Add More</button>
+      <button type="submit">Find Common Time</button>
+    </form>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
